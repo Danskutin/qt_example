@@ -23,6 +23,11 @@
       <height>101</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
     <property name="text">
      <string>Kaikki asiakkaat</string>
     </property>
@@ -35,6 +40,11 @@
       <width>201</width>
       <height>101</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Yksi asiakas</string>
@@ -49,6 +59,11 @@
       <height>101</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
     <property name="text">
      <string>Koko nimi</string>
     </property>
@@ -61,6 +76,11 @@
       <width>191</width>
       <height>261</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>TextLabel</string>
