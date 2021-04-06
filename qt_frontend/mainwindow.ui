@@ -73,7 +73,7 @@
      <rect>
       <x>250</x>
       <y>30</y>
-      <width>191</width>
+      <width>341</width>
       <height>261</height>
      </rect>
     </property>
@@ -84,6 +84,21 @@
     </property>
     <property name="text">
      <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditID">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>310</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
     </property>
    </widget>
   </widget>
