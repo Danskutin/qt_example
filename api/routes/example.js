@@ -6,7 +6,7 @@ router.get('/allpersons',
     function(request,response){
         example_sql.getAllPersons(function(err, dbResult){
             if(err){
-                response.json(err);
+                response.json(err.errno);
             }
             else{
                 console.log(dbResult);
@@ -22,7 +22,7 @@ router.get('/oneperson/:id',
         example_sql.getOnePerson(request.params.id, 
             function(err,dbResult){
                 if(err){
-                    response.json(err);
+                    response.json(err.errno);
                 }
                 else{
                     console.log(dbResult);
@@ -37,7 +37,7 @@ router.get('/fullname/:id',
         example_sql.getFullName(request.params.id,
             function(err,dbResult){
                 if(err){
-                    response.json(err);
+                    response.json(err.errno);
                 }
                 else{
                     response.json(dbResult[0]);
