@@ -23,10 +23,15 @@ private slots:
     void allPersonsSlot(QNetworkReply *reply);
     void onePersonSlot(QNetworkReply *reply);
     void fullnameSlot(QNetworkReply *reply);
+    void raiseSlot(QNetworkReply *reply);
 
     void on_btnGetOnePerson_clicked();
 
     void on_btnGetFullName_clicked();
+
+    void on_btnRaise_clicked();
+
+    void on_lineEditID_textChanged(const QString &arg1);
 
 private:
     Ui::MainWindow *ui;
@@ -38,5 +43,8 @@ private:
 
     QNetworkAccessManager *fullnameManager;
     QNetworkReply *fullnameReply;
+
+    QNetworkAccessManager *raiseManager;
+    QNetworkReply *raiseReply;
 };
 #endif // MAINWINDOW_H
